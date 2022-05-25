@@ -1,3 +1,23 @@
+# WEATHER APP
+
+Weather App created with React.
+
+## Objectives
+
+Make a weather forecasting application to practise concepts in React:
+
+* JSX
+* Props
+* State
+* Hooks
+* Testing
+* Request/Response
+* Error handling
+
+## Source
+
+Created as part of Machester Codes Software Developer course.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
