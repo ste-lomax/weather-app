@@ -8,7 +8,7 @@ function ForecastSummary(props) {
     <div className="forecast-summary">
       <div className="forecast-summary__date">{date}</div>
       <div className="forecast-summary__icon">{icon}</div>
-      <div classsName="forecast-summary__temperature">
+      <div className="forecast-summary__temperature">
         {temperature.max}
         &deg;C
       </div>
@@ -20,7 +20,7 @@ function ForecastSummary(props) {
 export default ForecastSummary;
 
 ForecastSummary.propTypes = {
-  date: PropTypes.string.isRequired,
+  date: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,
   temperature: PropTypes.shape({
